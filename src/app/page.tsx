@@ -19,7 +19,7 @@ export default function Home() {
       <Container>
         <div className="space-y-24 lg:space-y-20">
           {allBlogs.map((post) => (
-            <div>
+            <div key={post.metadata.title}>
               <article>
                 <Border className="pt-16 ">
                   <div className="relative lg:-mx-4 lg:flex lg:justify-end">
