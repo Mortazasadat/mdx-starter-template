@@ -14,9 +14,7 @@ export function PageIntro({
   centered?: boolean;
 }) {
   return (
-    <Container
-      className={clsx("mt-32 sm:mt-36 lg:mt-40", centered && "text-center")}
-    >
+    <Container className={clsx("mt-40", centered && "text-center")}>
       <div>
         <h1>
           <span className="block dark:text-white font-display text-base font-semibold text-neutral-950">

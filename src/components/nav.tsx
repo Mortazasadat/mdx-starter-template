@@ -4,7 +4,7 @@ import { ThemeToggle } from "./ThemeToggle";
 
 const Nav = () => {
   return (
-    <header className="bg-white dark:shadow-md dark:border dark:border-gray-900 dark:bg-black shadow-md rounded-lg fixed w-full top-0 inset-x-0 z-10 mt-5 max-w-6xl mx-auto ">
+    <header className="bg-white dark:shadow-md dark:border dark:border-gray-900 dark:bg-black shadow-md rounded-lg fixed w-full top-0 inset-x-0 z-10 mt-0 max-w-6xl mx-auto ">
       <nav
         className="flex items-center justify-between p-6 lg:px-8"
         aria-label="Global"
